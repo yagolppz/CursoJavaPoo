@@ -4,7 +4,7 @@ public class FamiliaPerro extends Familia{
 	private String apodo;
 
     //Constructor
-    public FamiliaPerro(String nombrePerro) { //base busca el segundo constructor de la clase Padre
+    public FamiliaPerro(String nombrePerro) { //busca el segundo constructor de la clase Padre
         super(nombrePerro);
     }
 

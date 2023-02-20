@@ -1,6 +1,6 @@
 package POO;
 
-public class Program {
+public class FamiliaProgram {
 
 	public static void main(String[] args) {
 		//Creamos instancias 
@@ -26,8 +26,7 @@ public class Program {
 
         System.out.println(perroSimpson.getInfo());
         perroSimpson.setApodoPerro("huesos");
-        System.out.println(perroSimpson.getApodoPerro());
-		
+        System.out.println(perroSimpson.getApodoPerro());		
 	}
-
 }
+

@@ -8,7 +8,6 @@ public class Familia {
     public Familia() {
         nombreIntegrante = "nada";
     }
-
     public Familia(String nombreIntegrante) {
         this.nombreIntegrante = nombreIntegrante;
     }
@@ -17,7 +16,6 @@ public class Familia {
     public String getInfo() {
         return(nombreIntegrante);
     }
-
     public void setInfo(String nombreIntegrante) {
         this.nombreIntegrante = nombreIntegrante;
     }
@@ -26,7 +24,6 @@ public class Familia {
     public void respirar() {
         System.out.println("Puedo respirar");
     }
-
     public void comer() {
         System.out.println("Puedo comer");
     }

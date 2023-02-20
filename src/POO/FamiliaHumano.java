@@ -2,7 +2,7 @@ package POO;
 
 public class FamiliaHumano extends Familia{
 	//Constructor
-    public FamiliaHumano(String nombreHumano) { //base busca el segundo constructor de la clase Padre
+    public FamiliaHumano(String nombreHumano) { //busca el segundo constructor de la clase Padre
         super(nombreHumano);
     }
 
