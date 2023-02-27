@@ -6,16 +6,16 @@ public class Auto {
 	private double largo;
 	private double ancho;
 	private boolean climatizador;
-	public String tapiceria;
+	private String tapiceria;
 	
 	/**_______Constructores(metedo)__________*/
 	/**Si tengo metodos iguales con diferente numero de parametros --> SOBRECARGA DEL METODO*/
 	public Auto(){//Uso en Auto1 y Auto2 (no tiene parametros)
-		ruedas=5;
+		ruedas=0;
 		largo=3;
 		ancho=2;
 		climatizador=false;
-		tapiceria="tela";		
+		tapiceria=" ";		
 	}
 	public Auto(double largoAuto, double anchoAuto){//Uso en Auto3 (2 parametros)
 		ruedas=5;
