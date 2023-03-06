@@ -9,10 +9,17 @@ public class FamiliaProgram {
         FamiliaPerro perroSimpson = new FamiliaPerro("Ayudante de Santa");//Llaman al segundo constructor de la clase Padre
         FamiliaHumano hijoSimpson = new FamiliaHumano("Bart");
         FamiliaHumano hijaSimpson = new FamiliaHumano("Lisa");
+        FamiliaPez pezSimpson= new FamiliaPez();
 
         //Utilizo las instancias
         perroSimpson.ladrar();
         gatoSimpson.maullar();
+        
+        
+        
+        
+        
+        
         gatoSimpson.respirar();
         nuevo.respirar();
         System.out.println(nuevo.getInfo());
@@ -26,7 +33,12 @@ public class FamiliaProgram {
 
         System.out.println(perroSimpson.getInfo());
         perroSimpson.setApodoPerro("huesos");
-        System.out.println(perroSimpson.getApodoPerro());		
+        System.out.println(perroSimpson.getApodoPerro());	
+        
+        perroSimpson.respirar();
+        gatoSimpson.respirar();
+        pezSimpson.respirar();
+
 	}
 }
 

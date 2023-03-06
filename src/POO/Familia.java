@@ -22,7 +22,7 @@ public class Familia {
 
     //Metodos de la clase
     public void respirar() {
-        System.out.println("Puedo respirar");
+        System.out.println("Puedo respirar por la boca");
     }
     public void comer() {
         System.out.println("Puedo comer");
